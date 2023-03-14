@@ -1,0 +1,46 @@
+.todo-item{
+    width : 60%;
+    background-color: #f1f3f5;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.todo-name{
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 24px;
+}
+
+.check-icon{
+    width: 15px;
+}
+
+.check-button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.x-icon{
+    width: 15px
+}
+
+.x-button{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.actions{
+    margin-right: 12px;
+}
